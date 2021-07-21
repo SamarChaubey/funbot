@@ -24,7 +24,7 @@ async def on_message(message):
     msgcon=message.content.split(" ")
     caplist=[i.upper() for i in msgcon]
     if "NIV" in caplist or "NIVESH" in caplist or "NIVI" in caplist :
-        await message.reply("Nivesh ? he is a pro but an agent hopper.")
+        await message.reply("Nivesh ?Lol what do you know, he is a pro but an agent hopper.")
              
     if message.content.startswith('$echo'):
         msgcon=[]
